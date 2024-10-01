@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int A,B,C,X;
+    cout<<"Enter the value of A,B,C and X:"<<endl;
+    cin>>A>>B>>C>>X;
+     if(A==2 && B==3 && C==7){
+         if(X==2 || X==3 || X==7){
+             cout<<"yes"<<endl;
+         }
+         else{
+         cout<<"No"<<endl;
+        } 
+     }
+     cout<<"NO"<<endl;
+}
